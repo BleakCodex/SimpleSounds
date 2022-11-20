@@ -9,4 +9,10 @@
     <PackageReference Include="Pathoschild.Stardew.ModBuildConfig" Version="4.0.2" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="manifest.json">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 </Project>
